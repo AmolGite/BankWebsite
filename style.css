@@ -1,0 +1,795 @@
+/* font-family: 'Poppins', sans-serif; */
+
+
+*{
+
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html{
+
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+    /* scroll-behavior: smooth; */
+
+}
+
+
+
+
+
+.container1{
+
+    background: #2C5364;
+   
+    
+}
+
+
+.nav-bar-container{
+
+    width: 1200px;
+    margin: auto;
+    
+    padding: 1rem;
+}
+
+.logo{
+
+    float: left;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #6DD5FA;
+    letter-spacing: 0.2rem;
+}
+
+.nav-items{
+
+    float: right;
+}
+
+.nav-bar-container::after{
+
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.nav-items li{
+
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-items li a{
+
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: cadetblue;
+    display: inline-block;
+    padding: 1rem;
+    letter-spacing: 0.2rem;
+    
+    
+}
+
+
+.nav-items li a:hover{
+
+
+    color: #6DD5FA;
+    transition: color 0.4s ease-in-out;
+    
+   
+}
+
+
+
+
+
+
+
+.showcase1{
+
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(./armando-arauz-v_BWg0OnFmk-unsplash.jpg);
+    height: 90vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   
+   
+    
+}
+
+
+.showcase1 .para1{
+
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #E9E4F0;
+}
+
+.showcase1 .para2{
+
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #E9E4F0;
+    margin-top: 1rem;
+    letter-spacing: 0.2rem;
+
+
+}
+
+
+.showcase1 a{
+
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 2rem;
+    /* border: 1px solid red; */
+    border-radius: 2rem;
+    padding: 1rem;
+    color: aliceblue;
+    background-color: #2C5364;
+}
+
+.showcase1 a:hover{
+
+    color: #BDFFF3;
+    transition: color 0.3s ease-in-out;
+    background: #2C5364;
+   
+}
+
+
+
+.showcase-div1{
+
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    align-items: center;
+    letter-spacing: 0.2rem;
+    text-align: center;
+   
+    
+    
+    
+
+
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.showcase-services{
+
+    
+    /* border: 1px solid red; */
+    background: #CFDEF3;
+    
+    
+}
+
+
+
+.service-container{
+
+    
+    /* border: 1px solid red; */
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+    
+}
+
+
+.service{
+
+    /* border: 1px solid red; */
+    width: 400px;
+    flex-basis: auto;
+    text-align: center;
+   
+}
+
+.service h1{
+
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+    color: #2C5364;
+}
+
+
+
+.showcase-services .service-para1{
+
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    color: rgb(101, 93, 93);
+    margin-bottom: 2rem;
+}
+
+.showcase-services p{
+
+    font-size: 500;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    margin: 1rem;
+    
+
+}
+
+.showcase-services h1{
+
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    padding: 1rem;
+}
+
+
+.showcase-services .apply-now{
+
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 2rem;
+    /* border: 1px solid red; */
+    border-radius: 2rem;
+    padding: 1rem;
+    color: aliceblue;
+    background-color: #2C5364;
+    letter-spacing: 0.2rem;
+
+
+}
+
+
+
+.showcase-services .apply-now:hover{
+
+
+    color: #BDFFF3;
+    transition: color 0.3s ease-in-out;
+    background: #2C5364;
+}
+
+
+
+
+
+
+
+
+
+
+.articles p{
+
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: 0.2rem;
+    /* padding: 2rem; */
+}
+
+.article-one{
+
+ width: 30%;
+ height: auto;
+
+
+
+}
+
+
+.article-one img{
+
+    width: 100%;
+    /* height: 50%; */
+}
+
+
+.articles-section{
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.article-one{
+    text-align: center;
+
+
+
+}
+
+
+.article-one a{
+
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    display: inline-block;
+    padding: 1rem;
+    margin-top: 1rem;
+    color: aliceblue;
+    background-color: #2C5364;
+    letter-spacing: 0.2rem;
+    color: #BDFFF3;
+}
+
+
+.article-one a:hover{
+
+
+    color: #BDFFF3;
+    transition: color 0.3s ease-in-out;
+    /* background: #2C5364; */
+
+
+
+}
+
+
+.note span{
+
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+
+marquee{
+
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+}
+
+
+
+.footer-section{
+
+
+    height: 50vh;
+    background: yellow;
+}
+
+.footer{
+
+    background: #263238
+}
+
+.sociel-media-links{
+
+    /* border: 1px solid red; */
+    text-align: center;
+    padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.facebook,.instagram,.twitter{
+
+    margin-right: 1.5rem;
+
+
+}
+
+.footer-para{
+
+    /* border: 1px solid red; */
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    letter-spacing: 0.2rem;
+
+
+}
+
+
+.disclaimer-one{
+
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+    /* border: 1px solid red; */
+    margin: 1rem;
+
+}
+
+.disclaimer-span{
+
+    color: red;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* login page */
+
+.input-field{
+
+    width: 30%;
+}
+
+
+
+
+.account-open-heading{
+
+    font-size: 2.5rem;
+    font-size: 700;
+    letter-spacing: 0.2rem;
+    /* border: 1px solid red; */
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.personal-info-para{
+
+    /* border: 1px solid red; */
+    font-size:2rem;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+    text-align: center;
+}
+
+
+.label-tag{
+
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+}
+
+
+
+.tick-box-check{
+
+    font-size: 1.5rem;
+    font-weight: 500;
+
+}
+
+
+
+.submit{
+
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 500;
+    display: block;
+    margin-top: 2rem;
+    /* border: 1px solid red; */
+    border-radius: 2rem;
+    padding: 1rem;
+    color: aliceblue;
+    background-color: #2C5364;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.submit:hover{
+
+    color: #BDFFF3;
+    transition: color 0.3s ease-in-out;
+    background: #2C5364;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* login page */
+
+.login-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    
+    background: url('background6.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.form-box{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.form-value h2{
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+.inputbox{
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+}
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+input:focus ~ label,
+input:valid ~ label{
+top: -5px;
+}
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding:0 35px 0 5px;
+    color: #fff;
+}
+.inputbox ion-icon{
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    top: 20px;
+}
+.forget{
+    margin: -15px 0 15px ;
+    font-size: .9em;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;  
+}
+
+.forget label input{
+    margin-right: 3px;
+    
+}
+.forget label a{
+    color: #fff;
+    text-decoration: none;
+}
+.forget label a:hover{
+    text-decoration: underline;
+}
+button{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+.register{
+    font-size: .9em;
+    color: #fff;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+.register p a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+.register p a:hover{
+    text-decoration: underline;
+}
+
+.login-page{
+
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(./pexels-cottonbro-studio-5082579.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.login{
+
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.inputbox .login-email{
+
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+
+.inputbox .login-password{
+
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.forget a{
+
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.forget .forget-span{
+
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-right: 8rem;
+}
+
+
+.register p{
+
+    font-size: 1.5rem;
+    font-weight: 500;
+   
+
+
+}
+
+.login-button{
+
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.contact-left{
+
+    width: 49%;
+    height: auto;
+}
+
+
+.company-image{
+
+    height: 50%;
+}
+
+
+.contact-section{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.submit a{
+
+    font-size: 2rem;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+
+
+}
+
+.submit a:hover{
+
+    color: #BDFFF3;
+    transition: color 0.3s ease-in-out;
+    background: #2C5364;
+}
+
+
+.username,.email,.phone,.message{
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+
+
+
+.contact-right .section2-heading{
+
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+
+}
+
+
+.contact-location,.contact-email,.contact-call{
+
+    margin-bottom: 1rem;
+}
+
+
+.contact-location p,.contact-email p,.contact-call p{
+
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: 0.2rem;
+}
+
+.contact-location h2,.contact-email h2,.contact-call h2{
+
+    text-transform: uppercase;
+}
+
+
+
+
+.contact-right .section2-para{
+
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    font-weight: 300;
+
+
+}

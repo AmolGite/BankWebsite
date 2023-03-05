@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <title>MyBank Login</title>
+
+</head>
+<body>
+
+
+    <nav class="navbar">
+
+
+        <div class="container1">
+
+            
+        <div class="nav-bar-container">
+
+
+            <h1 class="logo"><i class="fa-sharp fa-solid fa-building-columns"></i>MyBank</h1>
+            
+            <ul class="nav-items">
+                <li><a href="./home.html" target="_blank">Home</a></li>
+                <li><a href="./login.html" target="_blank">Login</a></li>
+                <li><a href="./about.html" target="_blank">About</a></li>
+                <li><a href="./contact-us.html" target="_blank">Contact Us</a></li>
+            </ul>
+
+        </div>
+
+        </div>
+
+
+
+
+
+       
+    </nav>
+
+
+    <section class="form">
+
+
+
+        <div class="for-section nav-bar-container">
+
+
+            <p class="account-open-heading">Account Opening Form</p>
+
+
+            <p class="personal-info-para">Personal Information</p>
+            <hr>
+
+            <form action="">
+
+
+                
+                <label for=" title" class="label-tag">Title</label><br>
+                <select  id="dropdown" class="standard-select" required>
+                    <option value="select" disabled selected>Select Title</option>
+                    <option value="Mr">Mr</option>
+                    <option value="Mrs">Mrs</option>
+                    <option value="Miss">Miss</option>
+                    <option value="Ms">Ms</option>
+                    <option value="Dr">Dr</option>
+                    <option value="Prof">Prof</option>
+                  </select>
+                  <br><br>
+
+
+                <label for="first-name" class="label-tag">First Name :</label><br>
+                <input type="text" name="first-name" id="first-name" required placeholder="Enter first name here" class="input-field"><br><br>
+                <label for="middle-name" class="label-tag">Middle Name :</label><br>
+                <input type="text" name="middle-name" id="middle-name" required placeholder="Enter last name here" class="input-field"><br><br>
+               
+
+                <label for="last-name" class="label-tag">Last Name :</label><br>
+                <input type="text" name="last-name" id="last-name" required placeholder="Enter first name here" class="input-field"><br><br>
+
+
+                
+                
+
+                <label for="email" class="label-tag">Email :</label><br>
+                <input type="email" name="email" id="email" required placeholder="Enter email here" class="input-field"><br><br>
+
+
+                <label for="phone-number" class="label-tag">Phone Number :</label><br>
+                <input type="phone-number" id="phone-number" name="phone-number" pattern='^\+?\d{10,12}' placeholder="Enter phone here" required maxlength="10" class="input-field"><br><br>
+    
+
+                <label for="password" class="label-tag">Password :</label><br>
+                <input type="password" name="password" id="password" required minlength="5" maxlength="10" placeholder="Enter password here" class="input-field"><br><br>
+
+                <label for="confirm-password" class="label-tag">Confirm Password :</label><br>
+                <input type="confirm-password" name="password" id="confirm-password" required minlength="5" maxlength="10" placeholder="Enter password here" class="input-field"><br><br>
+
+                <label for="dob" class="label-tag">Date of Birth :</label><br>
+                <input type="date" name="dob" id="dob" required class="input-field"><br><br>
+
+                <label for="account-type" class="label-tag">Account Type :</label><br>
+                <select  id="account-type" required>
+                    
+                    <option value="account-type">Savings Account</option>
+                    <option value="account-type">Current Account</option>
+                   
+                  </select>
+                  <br><br>
+                  
+
+                <p class="personal-info-para">Residential Address</p>
+                <hr>
+
+                <label for="address-line1" class="label-tag">Address Line 1 :</label><br>
+                <input type="text" name="address" id="address-line1" required maxlength="50" class="input-field"><br><br>
+
+
+                <label for="address-line2" class="label-tag">Address Line 2 :</label><br>
+                <input type="text" name="address" id="address-line2" required maxlength="50" class="input-field"><br><br>
+
+
+                <label for="town" class="label-tag">Town/City :</label><br>
+                <input type="text" name="town" id="town" required class="input-field"><br><br>
+
+
+                <label for="state" class="label-tag">State :</label><br>
+                <select  id="state" required>
+                    
+                    <option value="state">Andhra Pradesh</option>
+                    <option value="state">Arunachal Pradesh</option>
+                    <option value="state">Assam</option>
+                    <option value="state">Bihar</option>
+                    <option value="state">Chhattisgarh</option>
+                    <option value="state">Goa</option>
+                    <option value="state">Gujarat</option>
+                    <option value="state">Haryana</option>
+                    <option value="state">Himachal Pradesh</option>
+                    <option value="state">Jharkhand
+                    </option>
+                    <option value="state">Karnataka
+                    </option>
+                    <option value="state">Kerala</option>
+                    <option value="state">Maharashtra</option>
+                    <option value="state">Manipur</option>
+                    <option value="state">Meghalaya</option>
+                    <option value="state">Mizoram</option>
+                    <option value="state">Nagaland</option>
+                    <option value="state">Odisha
+                    </option>
+                    <option value="state">Punjab
+                    </option>
+                    <option value="state">Rajasthan
+                    </option>
+                    <option value="state">Sikkim
+                    </option>
+                    <option value="state">Tamil Nadu
+                    </option>
+                    <option value="state">Tripura
+                    </option>
+                    <option value="state">Telangana
+                    </option>
+                    <option value="state">Uttar Pradesh
+                    </option>
+                    <option value="state">Uttarakhand
+                    </option>
+                    <option value="state">West Bengal
+                    </option>
+                    <option value="state">Andaman & Nicobar (UT)
+                    </option>
+                    <option value="state">Chandigarh (UT)
+                    </option>
+                    <option value="state">Dadra & Nagar Haveli and Daman & Diu (UT)
+                    </option>
+                    <option value="state">Delhi [National Capital Territory (NCT)]
+
+                    </option>
+                    <option value="state">Jammu & Kashmir (UT)
+
+                    </option>
+                    <option value="state">Ladakh (UT)
+
+                    </option>
+                    <option value="state">Lakshadweep (UT)
+
+
+                    </option>
+                    <option value="state">Puducherry (UT)
+
+
+                    </option>
+                    
+
+                    
+                  </select>
+                  <br><br>
+
+                  <label for="post-code" class="label-tag">Postal Code :</label><br>
+                  <input id="post-code" name="post-code" type="text" pattern="[0-9]*" maxlength="6" required class="input-field"><br><br>
+
+
+
+                  <p class="personal-info-para">Your Consent</p>
+                  <hr>
+
+
+            <label for="sign" class="label-tag">Signture :</label><br>
+          <input type="file" id="sign" name="sign" />
+          <br><sub>(File size should be less than 2MB)</sub><br><br>
+        
+          <label for="Date" class="label-tag">
+
+            Date</label><br>
+            <input class="standard-input" type="date" name="Date" id="Date" required><br><br>
+          
+        <label class="label-tag" id="admin-search" for="admin-search"></label><br>
+        <input type="checkbox" id="admin-click" name="admin-search" required>
+        <p class="tick-box-check">Tick this box to allow the bank to use the details you have provided to insert into database and use for administrative purpose.</p>
+
+
+
+
+        <a href="" class="submit">Submit</a>
+          
+         
+        
+
+                 
+
+
+                
+
+
+
+
+            </form>
+
+        </div>
+
+
+
+        
+
+    </section>
+
+
+    <footer class="footer">
+
+
+
+        <div class="sociel-media-links">
+    
+            <i class="fab fa-facebook fa-4x facebook"></i>
+            
+            <i class="fab fa-instagram fa-4x instagram"></i>
+            <i class="fab fa-twitter fa-4x twitter"></i>
+    
+            <p class="footer-para"> &copy;2021 MyBank Ltd.&nbsp;All Rights Reserved</p>
+         
+    
+    
+            
+    
+            
+        </div>
+    
+    
+    
+      
+      </footer>
+    
+</body>
+</html>
